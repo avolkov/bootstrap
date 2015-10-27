@@ -16,16 +16,16 @@
   .opacity(0);
 
   &.in     { .opacity(@tooltip-opacity); }
-  &.top    { margin-top:  -3px; padding: @tooltip-arrow-width 0; }
-  &.right  { margin-left:  3px; padding: 0 @tooltip-arrow-width; }
-  &.bottom { margin-top:   3px; padding: @tooltip-arrow-width 0; }
-  &.left   { margin-left: -3px; padding: 0 @tooltip-arrow-width; }
+  &.top    { margin-top:  -0.1875em; padding: @tooltip-arrow-width 0; } /* 3/16 */
+  &.right  { margin-left:  0.1875em; padding: 0 @tooltip-arrow-width; } /* 3/16 */
+  &.bottom { margin-top:   0.1875em; padding: @tooltip-arrow-width 0; } /* 3/16 */
+  &.left   { margin-left: -0.1875em; padding: 0 @tooltip-arrow-width; } /* 3/16 */
 }
 
 // Wrapper for the tooltip content
 .tooltip-inner {
   max-width: @tooltip-max-width;
-  padding: 3px 8px;
+  padding: 0.1875em 0.5em; /* 3/16 */ /* 8/16 */
   color: @tooltip-color;
   text-align: center;
   background-color: @tooltip-bg;

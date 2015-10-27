@@ -78,7 +78,7 @@
   color: @input-color;
   text-align: center;
   background-color: @input-group-addon-bg;
-  border: 1px solid @input-group-addon-border-color;
+  border: 0.0625em solid @input-group-addon-border-color; /* 1/16 */
   border-radius: @input-border-radius;
 
   // Sizing
@@ -140,7 +140,7 @@
   > .btn {
     position: relative;
     + .btn {
-      margin-left: -1px;
+      margin-left: -0.0625em; /* 1/16 */
     }
     // Bring the "active" button to the front
     &:hover,
@@ -150,18 +150,18 @@
     }
   }
 
-  // Negative margin to only have a 1px border between the two
+  // Negative margin to only have a 0.0625em border between the two /* 1/16 */
   &:first-child {
     > .btn,
     > .btn-group {
-      margin-right: -1px;
+      margin-right: -0.0625em; /* 1/16 */
     }
   }
   &:last-child {
     > .btn,
     > .btn-group {
       z-index: 2;
-      margin-left: -1px;
+      margin-left: -0.0625em; /* 1/16 */
     }
   }
 }
