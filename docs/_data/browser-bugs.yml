@@ -190,26 +190,6 @@
 
 -
   browser: >
-    Safari
-  summary: >
-    Unexplained `1px` horizontal space between `display: table-cell` elements
-  upstream_bug: >
-    WebKit#149935
-  origin: >
-    Bootstrap#17438, Bootstrap#14237
-
--
-  browser: >
-    Safari
-  summary: >
-    `float: right` doesn't consistently work correctly across page loads; possible race condition
-  upstream_bug: >
-    WebKit#150271
-  origin: >
-    Bootstrap#17913
-
--
-  browser: >
     Safari (OS X)
   summary: >
     Scrollbar clipped in `select[multiple]` with padding.
