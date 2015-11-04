@@ -10,7 +10,7 @@ Also I added a .gitignore with *.js *.css and *.map files in few places to ignor
 
 To get resulting *.css and *.map files, you will need to compile source *.less files.
 
-Install npm, on debian-based system run `#apt-get install npm`  then follow [Compiling CSS and Javascript](http://getbootstrap.com/getting-started/) bootstrap getting started guide to setup less build environment with grunt.
+Install npm, on debian-based system run `#apt-get install npm`  then follow [Compiling CSS and Javascript](http://getbootstrap.com/getting-started/#grunt) bootstrap getting started guide to setup less build environment with grunt.
 
 -------
 
