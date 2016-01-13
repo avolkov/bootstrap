@@ -33,7 +33,7 @@ th {
         padding: @table-cell-padding;
         line-height: @line-height-base;
         vertical-align: top;
-        border-top: 0.08em solid @table-border-color; /* 1/16 */
+        border-top: 0.12em solid @table-border-color; /* 1/16 */
       }
     }
   }
@@ -86,14 +86,14 @@ th {
 // Add borders all around the table and between all the columns.
 
 .table-bordered {
-  border: 0.08em solid @table-border-color; /* 1/16 */
+  border: 0.12em solid @table-border-color; /* 1/16 */
   > thead,
   > tbody,
   > tfoot {
     > tr {
       > th,
       > td {
-        border: 0.08em solid @table-border-color; /* 1/16 */
+        border: 0.12em solid @table-border-color; /* 1/16 */
       }
     }
   }
@@ -177,7 +177,7 @@ table {
     margin-bottom: (@line-height-computed * 0.75);
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 0.08em solid @table-border-color; /* 1/16 */
+    border: 0.12em solid @table-border-color; /* 1/16 */
 
     // Tighten up spacing
     > .table {
